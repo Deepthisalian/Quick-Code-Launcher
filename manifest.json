@@ -1,0 +1,16 @@
+
+{ 
+  "manifest_version": 2,
+  "name": "Quick Code Launcher", 
+  "description" : "Quickly launch all coding platforms from one place",
+  "version": "1.0.0",
+   "icons": {"128": "rocket_128x128.png"},
+   "browser_action": {
+      "default_icon": "images/rocket_icon.png",
+      "default_popup": "popup.html"
+
+   },
+
+   "permissions": ["activeTab"]
+    
+}

@@ -1,0 +1,121 @@
+html,body{
+    font-family: 'Merriweather', serif;
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-height: 180px;
+    padding: 0;
+    width: 450px;
+    background-color:#FAFAFA;
+
+    
+}
+p{
+    padding-left: 10px;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+    font-weight:400;
+    margin: 0;
+    color:#0D47A1;
+
+}
+
+a:link, a:visited {
+    color: #000;
+    outline: 0;
+    text-decoration: none;
+
+}
+
+img {
+    width: 30px;
+    padding-left: 10px;
+}
+
+.modal-header{
+    align-items: center;
+    border-bottom: 0.5px solid 
+    #B0BEC5;
+}
+
+.modal-content{
+    padding: 0 22px;
+}
+
+.modal-icons{
+    border-top: o.5px solid #dadada
+    height: 50px;
+    width: 100%
+}
+
+.logo {
+    padding: 16px;
+}
+
+.logo-icon{
+    vertical-align: text-bottom;
+    margin-right:12px;
+}
+
+.version{
+    color: #444;
+    font-size: 18px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+}
+
+.flex {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+    box-shadow: #dadada;
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:grey;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    width: 100px;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent grey transparent;
+  }
+
+
+
